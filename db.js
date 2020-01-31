@@ -4,7 +4,7 @@ const connection = mysql.createConnection({
     host: 'us-cdbr-iron-east-04.cleardb.net',
     user: 'bf1e21f64c9bfb',
     password: '6abaef19',
-    database: 'heroku_4964469205ceb69 '
+    database: 'heroku_4964469205ceb69'
 })
 
 function getAllPersons () {
