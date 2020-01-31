@@ -1,10 +1,10 @@
 const mysql = require('mysql2')
 
 const connection = mysql.createConnection({
-    host: 'localhost',
-    user: 'myusers',
-    password: 'mypasss',
-    database: 'mytestdb'
+    host: 'ec2-52-55-59-250.compute-1.amazonaws.com',
+    user: 'uvebghuonldiva',
+    password: '9ac4cce36407f9bd1400086275b3fcbf8e43dc75f9defab3eb843a100f1d5839',
+    database: 'd9t1qpdpe8dmp8'
 })
 
 function getAllPersons () {
