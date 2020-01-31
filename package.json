@@ -4,6 +4,7 @@
   "description": "",
   "main": "create_tables.js",
   "scripts": {
+    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
@@ -14,6 +15,6 @@
     "hbs": "^4.1.0",
     "heroku": "^7.35.1",
     "mysql": "^2.17.1",
-    "mysql2": "^2.1.0"
+    
   }
 }
