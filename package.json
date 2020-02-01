@@ -1,28 +1,29 @@
-{
+ {
   "name": "backends",
   "version": "1.0.0",
-  "description": "good",
-  "main": "index.js",
-  "scripts": {
-    "start": "node server.js"
-  },
-  "author": "om",
-  "license": "ISC",
+  "description": "\"# submit\" \r \"# backends\"",
+  "main": "create_tables.js",
   "dependencies": {
     "express": "^4.17.1",
     "github": "^14.0.0",
     "hbs": "^4.1.0",
     "heroku": "^7.35.1",
     "mysql": "^2.17.1",
-     "mysql2": "^2.1.0"
-    
+    "mysql2": "^2.1.0"
   },
-  
-  "engines": {
-    "node": "13.2.0",
-    "npm": "6.13.6"
-
-
-  
-}
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/omkushwaha14/backends.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/omkushwaha14/backends/issues"
+  },
+  "homepage": "https://github.com/omkushwaha14/backends#readme"
 }
