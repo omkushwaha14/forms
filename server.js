@@ -35,6 +35,6 @@ res.redirect('/adds')
 })
 
 
-app.listen(PORT () => {
-    console.log("Server listening on port ");
+app.listen(PORT, () => {
+    console.log("Server listening on port");
 });
