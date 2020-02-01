@@ -2,7 +2,7 @@
   "name": "backends",
   "version": "1.0.0",
   "description": "\"# submit\" \r \"# backends\"",
-  "main": "index.js",
+  "main": "server.js",
   "dependencies": {
     "express": "^4.17.1",
     "github": "^14.0.0",
