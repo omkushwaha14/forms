@@ -2,7 +2,7 @@ const express = require('express')
 const path= require ('path')
 const app = express()
 const db= require('./db')
-const SERVER_PORT = process.env.PORT ||4445
+const SERVER_PORT = process.env.PORT ||8080
 app.use(express.json())
 app.use(express.urlencoded({extended: true}))
 
@@ -33,5 +33,5 @@ res.redirect('/adds')
     })
 })
 app.listen(SERVER_PORT, () => {
-    console.log("Server started on http://localhost:4445/")
+    console.log("Server started on http://localhost:8080/")
 })
