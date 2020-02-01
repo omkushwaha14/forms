@@ -1,12 +1,12 @@
 {
   "name": "backends",
   "version": "1.0.0",
-  "description": "",
-  "main": "server.js",
+  "description": "good",
+  "main": "index.js",
   "scripts": {
     "start": "node server.js"
   },
-  "author": "",
+  "author": "om",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
