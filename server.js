@@ -1,10 +1,8 @@
 const express = require('express')
 const path= require ('path')
-var express = require ('express');
-var moment = require('moment');
 const app = express()
 const db= require('./db')
-const SERVER_PORT = process.env.PORT ||8080
+const SERVER_PORT = process.env.PORT ||3000
 app.use(express.json())
 app.use(express.urlencoded({extended: true}))
 
@@ -35,5 +33,5 @@ res.redirect('/adds')
     })
 })
 app.listen(SERVER_PORT, () => {
-    console.log("Server started on http://localhost:8080/")
+    console.log("Server started on http://localhost:3000/")
 })
