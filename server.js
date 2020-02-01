@@ -3,7 +3,7 @@ const path= require ('path')
 const http = require('http')
 const app = express()
 const db= require('./db')
-const SERVER_PORT = process.env.PORT ||3000
+const PORT = process.env.PORT ||3000
 app.use(express.json())
 app.use(express.urlencoded({extended: true}))
 
@@ -35,6 +35,6 @@ res.redirect('/adds')
 })
 
 
-app.listen(SERVER_PORT () => {
+app.listen(PORT () => {
     console.log("Server listening on port ");
 });
