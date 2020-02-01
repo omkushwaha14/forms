@@ -1,2 +1,2 @@
-web:node server.js,
-Web:node db.js
+web:node server.js
+
