@@ -3,7 +3,7 @@ const path= require ('path')
 const http = require('http')
 const app = express()
 const db= require('./db')
-const PORT = process.env.PORT ||3000
+const PORT = process.env.PORT || 5432
 app.use(express.json())
 app.use(express.urlencoded({extended: true}))
 
