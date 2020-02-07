@@ -1,5 +1,4 @@
-  
- const mysql = require('mysql')
+const mysql = require('mysql')
 
 var connection = mysql.createPool({
     host: 'us-cdbr-iron-east-04.cleardb.net',
