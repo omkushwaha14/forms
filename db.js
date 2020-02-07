@@ -1,11 +1,11 @@
-const mysql = require('mysql')
+  
+ const mysql = require('mysql')
 
-var connection = mysql.createConnection({
-    host: 'ec2-34-192-30-15.compute-1.amazonaws.com',
-    port: '5432',
-    user: 'pkcebsydrfznvn',
-    password: 'aa50a9bae407206f3d2e323ec1492fea282faeb7f1f5457ad7d533d4186f4b5f',
-    database: 'd2kq04nb5gp4c0'
+var connection = mysql.createPool({
+    host: 'us-cdbr-iron-east-04.cleardb.net',
+    user: 'bf1e21f64c9bfb',
+    password: '6abaef19',
+    database: 'heroku_4964469205ceb69'
 })
 
 function getAllPersons () {
