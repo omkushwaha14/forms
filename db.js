@@ -1,6 +1,6 @@
 const mysql = require('mysql')
 
-var connection = mysql.createPool({
+var connection = mysql.createConnection({
     host: 'ec2-34-192-30-15.compute-1.amazonaws.com',
     port: '5432',
     user: 'pkcebsydrfznvn',
