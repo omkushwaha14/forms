@@ -3,6 +3,7 @@ const mysql = require('mysql')
 var connection = mysql.createPool({
     host: 'ec2-34-192-30-15.compute-1.amazonaws.com',
     user: 'pkcebsydrfznvn',
+    port : '5432',
     password: 'aa50a9bae407206f3d2e323ec1492fea282faeb7f1f5457ad7d533d4186f4b5f',
     database: 'd2kq04nb5gp4c0'
 })
