@@ -1,2 +1,2 @@
 This is a project that help you to submit
-Form data to cloud computing platforms called heroku
+Form data to cloud database cleardb heroku
