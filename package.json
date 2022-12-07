@@ -4,7 +4,7 @@
   "description": "\"# submit\" \r \"# backends\"",
   "main": "server.js",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.18.2",
     "github": "^14.0.0",
     "hbs": "^4.1.0",
     "heroku": "^7.35.1",
